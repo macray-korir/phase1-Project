@@ -1,0 +1,78 @@
+a {
+    text-decoration: none;
+    color: darkslategray;  
+}
+.nav{
+    background-color: white;
+    padding: 0 2rem;
+    height: 0;
+    min-height: 9vh;
+    overflow: hidden;
+}
+.nav-brand a{
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nav-menu {
+    justify-content: space-between;
+}
+.nav-item {
+    list-style: none;
+    display: flex;
+    margin: 0%;
+    font-family:abel;
+}
+.nav-link {
+    padding: 1rem ;
+    font-size: 1.6rem;
+}
+.nav-link:hover{
+    background-color: #F7F8F8;
+    background: -webkit-linear-gradient(to right, #869454, #F7F8F8);
+    background: linear-gradient(to right, #86964c, #F7F8F8);    
+}
+.nav-link:hover a{
+    color: rgb(6, 4, 4);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
+  #resultsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .bookCard {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
