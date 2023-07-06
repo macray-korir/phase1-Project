@@ -1,4 +1,13 @@
 {
+  "name": "phase1-project",
+  "version": "1.0.0",
+  "description": "An intro to npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "macray",
+  "license": "ISC",
   "dependencies": {
     "prompt-sync": "^4.2.0"
   }
