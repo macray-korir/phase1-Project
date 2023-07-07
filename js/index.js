@@ -94,4 +94,14 @@ function toggleLike(bookId, likeButton, heartIcon) {
       heartIcon.classList.add('liked');
     }
   }
-      
+
+// Event listener for the DOMContentLoaded event
+document.addEventListener('DOMContentLoaded', function() {
+    // Perform any necessary tasks when the DOM is fully loaded
+  });
+  
+  // Event listener for the change event on the search input field
+  searchInput.addEventListener('change', function(event) {
+    // Perform any necessary tasks when the input value changes
+  });
+        
