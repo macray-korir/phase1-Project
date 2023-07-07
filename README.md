@@ -14,28 +14,28 @@
     JavaScript: Implements the application logic, API interactions, and event handling.
 
 # APIs
-The application utilizes the following API:
-    Open Library API (https://openlibrary.org/developers/api): Enables access to the extensive collection of books and related data.
+    The application utilizes the following API:
+        Open Library API (https://openlibrary.org/developers/api): Enables access to the extensive collection of books and related data.
 
 # Getting Started
- To run the Open Library Search application locally, follow these steps:
-    Fork and Clone the repository: git clone https://github.com/macray-korir/phase1-Project
-    Navigate to the project directory: `cd open-library-search`
-    Open the `index.html` file in a web browser.
+    To run the Open Library Search application locally, follow these steps:
+        Fork and Clone the repository: git clone https://github.com/macray-korir/phase1-Project
+        Navigate to the project directory: `cd open-library-search`
+        Open the `index.html` file in a web browser.
 # Usage
     Enter a title or keyword in the search input field.
     Click the "Search" button or press Enter to perform the search.
     The application will fetch and display search results with book details.
     To save a book as a favorite, click the "Like" button associated with the book.
 # Development
-Contributions and enhancements to the Open Library Search project are highly appreciated. To contribute, please follow these steps:
-    Fork the repository.
-    Create a new branch for your feature or bug fix:`git checkout -b feature-name`
-    Implement your changes and ensure they follow the project's coding standards.
-    Test your changes thoroughly.
-    Commit your changes: `git commit -m "Add feature-name"`
-    Push to the branch: `git push origin feature-name`
-    Create a pull request explaining your changes.
+    Contributions and enhancements to the Open Library Search project are highly appreciated. To contribute, please follow these steps:
+        Fork the repository.
+        Create a new branch for your feature or bug fix:`git checkout -b feature-name`
+        Implement your changes and ensure they follow the project's coding standards.
+        Test your changes thoroughly.
+        Commit your changes: `git commit -m "Add feature-name"`
+        Push to the branch: `git push origin feature-name`
+        Create a pull request explaining your changes.
 
 # License
  This project is licensed under the MIT License. See the LICENSE file for more details.
