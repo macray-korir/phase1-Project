@@ -35,3 +35,33 @@ searchForm.addEventListener('submit', function(event) {
       });
   }
   
+// Function to display the search results on the page
+function displaySearchResults(data) {
+    resultsContainer.innerHTML = '';
+  
+    if (data.docs.length === 0) {
+      resultsContainer.innerHTML = '<p>No results found.</p>';
+      return;
+    }
+  
+    data.docs.forEach(function(book) {
+      const title = book.title || 'Title not available';
+      const author = book.author_name?.[0] || 'Author not available';
+      const coverId = book.cover_i || '';
+      const coverUrl = `https://covers.openlibrary.org/b/id/${coverId}-L.jpg`;
+      const bookId = book.key || '';
+  
+      const bookCard = document.createElement('div');
+      bookCard.classList.add('bookCard');
+      bookCard.innerHTML = `
+        <img src="${coverUrl}" alt="${title} Cover">
+        <h3>${title}</h3>
+        <p>By: ${author}</p>
+        <button class="like-button" data-book-id="${bookId}">
+          <i class="far fa-heart"></i>
+        </button>
+      `;
+  
+      const likeButton = bookCard.querySelector('.like-button');
+      const heartIcon = bookCard.querySelector('.heart-icon');
+  
