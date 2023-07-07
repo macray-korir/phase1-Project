@@ -93,4 +93,15 @@ body {
     padding: 10px;
     border: 1px solid #ccc;
   }
-  
+  .bookCard img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  p{
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    font-family: abel;
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
