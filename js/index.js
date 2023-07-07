@@ -64,4 +64,18 @@ function displaySearchResults(data) {
   
       const likeButton = bookCard.querySelector('.like-button');
       const heartIcon = bookCard.querySelector('.heart-icon');
+
+    // Check if the book is already liked and update the UI accordingly
+    if (likedBooks.includes(bookId)) {
+        likeButton.classList.add('liked');
+        heartIcon.classList.add('liked');
+      }
   
+      likeButton.addEventListener('click', function() {
+        toggleLike(bookId, likeButton, heartIcon);
+      });
+  
+      resultsContainer.appendChild(bookCard);
+    });
+  }
+    
