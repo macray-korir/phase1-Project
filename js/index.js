@@ -78,4 +78,20 @@ function displaySearchResults(data) {
       resultsContainer.appendChild(bookCard);
     });
   }
-    
+
+// Function to toggle the like status of a book
+function toggleLike(bookId, likeButton, heartIcon) {
+    if (likedBooks.includes(bookId)) {
+      // Book is already liked, remove it from the likedBooks array
+      const index = likedBooks.indexOf(bookId);
+      likedBooks.splice(index, 1);
+      likeButton.classList.remove('liked');
+      heartIcon.classList.remove('liked');
+    } else {
+      // Book is not liked, add it to the likedBooks array
+      likedBooks.push(bookId);
+      likeButton.classList.add('liked');
+      heartIcon.classList.add('liked');
+    }
+  }
+      
