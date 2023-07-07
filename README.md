@@ -41,7 +41,7 @@
  This project is licensed under the MIT License. See the LICENSE file for more details.
 
 # Acknowledgements
-    We would like to express our gratitude to the Open Library API for providing access to their extensive book database. Additionally, we acknowledge the invaluable contributions of the Font Awesome library for the heart icon used in the like functionality.
-
+We would like to express our gratitude to the Open Library API for providing access to their extensive book database. 
+Additionally, we acknowledge the invaluable contributions of the Font Awesome library for the heart icon used in the like functionality.
 # Contact
 For any inquiries or feedback, please contact our team at Email[macray.korir@studentmoringaschool.com] Contact Number[0712334653]
