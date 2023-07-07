@@ -105,3 +105,19 @@ body {
     font-size: 1.3rem;
     font-weight: 900;
   }
+  .like-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .like-button i {
+    font-size: 20px;
+    color: gray;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .like-button.liked i {
+    color: red;
+  }
+  
