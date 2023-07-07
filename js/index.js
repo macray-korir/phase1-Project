@@ -34,6 +34,7 @@ searchForm.addEventListener('submit', function(event) {
         console.error('Error:', error);
       });
   }
+
 // Function to display the search results on the page
 function displaySearchResults(data) {
     resultsContainer.innerHTML = '';
@@ -66,19 +67,18 @@ function displaySearchResults(data) {
   
       const likeButton = bookCard.querySelector('.like-button');
       const heartIcon = bookCard.querySelector('.fa-heart');
-      if (likedBooks.includes(book.id)) { // Use book.id instead of bookId
+      if (likedBooks.includes(book.id)) { 
         likeButton.classList.add('liked');
         heartIcon.classList.add('liked');
       }
   
       likeButton.addEventListener('click', function() {
-        toggleLike(book.id, likeButton, heartIcon); // Use book.id instead of bookId
+        toggleLike(book.id, likeButton, heartIcon); 
       });
   
       resultsContainer.appendChild(bookCard);
     }
   }
-  
   
 // Function to toggle the like status of a book
 function toggleLike(bookId, likeButton, heartIcon) {
@@ -105,4 +105,3 @@ document.addEventListener('DOMContentLoaded', function() {
   searchInput.addEventListener('change', function(event) {
 
   });
-          
