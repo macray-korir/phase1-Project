@@ -14,9 +14,9 @@ searchForm.addEventListener('submit', function(event) {
       searchBooks(searchTerm);
     }
   });
-
+  
   // Function to search for books based on the entered search term
-function searchBooks(searchTerm) {
+  function searchBooks(searchTerm) {
     const url = `https://openlibrary.org/search.json?q=${encodeURIComponent(searchTerm)}`;
   
     fetch(url)
